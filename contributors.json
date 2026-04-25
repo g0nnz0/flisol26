@@ -31,18 +31,18 @@
       "libertad_favorita": "3"
     },
       {
-      "nombre": "Lorena",
+      "nombre": "Marcelo Roldan",
       "ciudad": "Buenos Aires, Argentina",
-      "mensaje": "Flisol 2026",
-      "rol": "estudiante",
+      "mensaje": "Este es mi mensaje",
+      "rol": "developer",
       "libertad_favorita": "0"
-     },
+    },
       {
-      "nombre": " Tito Calderon",
+      "nombre": "Fabricio Schneiderbauer",
       "ciudad": "Buenos Aires, Argentina",
-      "mensaje": "Anashei",
-      "rol": "Tester",
-      "libertad_favorita": "0"
+      "mensaje": "Transparencia",
+      "rol": "developer",
+      "libertad_favorita": "2"
     }
   ]
 }
