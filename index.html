@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tu primera huella en Internet — FLISoL UNPAZ 2026</title>
+  <meta name="description" content="Charla-taller sobre Software Libre y repositorios. FLISoL UNPAZ, sábado 25/4 a las 15hs, Aula 210.">
+
+  <!-- TIPOGRAFÍAS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=IBM+Plex+Mono:ital,wght@0,400;0,600;1,400&family=Archivo:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!--
+    ESTILOS
+    ¿Querés cambiar colores, tipografías o el layout?
+    Editá: style.css
+  -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ════════════════════════════════
+       ENCABEZADO
+       ════════════════════════════════ -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="header-brand">
+        <span class="brand-flisol">FLISoL</span>
+        <span class="brand-unpaz">UNPAZ 2026</span>
+      </div>
+      <nav class="header-nav">
+        <a href="#libertades">Las 4 Libertades</a>
+        <a href="#licencias">Licencias</a>
+        <a href="#mural">El Muro</a>
+        <a href="#contribuir">Colaborar</a>
+        <a href="https://codeberg.org/flisol26/flisolweb" target="_blank" class="nav-repo">Ver código ↗</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ════════════════════════════════
+       HERO
+       ════════════════════════════════ -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-eyebrow">Charla · Sábado 25 de abril · 15 hs · Aula 210</div>
+      <h1 class="hero-title">
+        Tu primera<br>
+        <em>huella</em> en<br>
+        Internet
+      </h1>
+      <p class="hero-sub">
+        Cómo colaborar en Software Libre.<br>
+        Sin saber programar. Desde tu navegador. Hoy.
+      </p>
+      <div class="hero-meta">
+        <span class="meta-item">👤 Matías Ríos</span>
+        <span class="meta-item">📍 Sede Central · Alem 4731</span>
+        <span class="meta-item">🌐 flisol.unpaz.edu.ar</span>
+      </div>
+      <div class="hero-tux" aria-hidden="true">
+        <pre class="tux-ascii">
+    .--.
+   |o_o |
+   |:_/ |
+  //   \ \
+ (|     | )
+/'\_   _/`\
+\___)=(___/</pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════
+       LIBRE VS PROPIETARIO
+       ════════════════════════════════ -->
+  <section class="compare" id="libre-vs-propietario">
+    <div class="container">
+      <h2 class="section-title">¿Qué diferencia hace?</h2>
+      <p class="section-lead">
+        Usás Software Libre todos los días sin saberlo. La diferencia no es el precio — es quién tiene el control.
+      </p>
+      <div class="compare-grid">
+
+        <div class="compare-card compare-libre">
+          <div class="compare-label">Software Libre</div>
+          <ul class="compare-list">
+            <li>✅ El código fuente es público y auditable</li>
+            <li>✅ Podés modificarlo para tus necesidades</li>
+            <li>✅ Podés compartirlo con quien quieras</li>
+            <li>✅ La comunidad detecta y corrige errores</li>
+            <li>✅ Nadie puede quitarte el acceso</li>
+            <li>✅ Ejemplos: Linux, Firefox, LibreOffice, VLC</li>
+          </ul>
+        </div>
+
+        <div class="compare-card compare-propietario">
+          <div class="compare-label">Software Propietario</div>
+          <ul class="compare-list">
+            <li>❌ El código es secreto — confiás a ciegas</li>
+            <li>❌ No podés modificarlo, aunque sea tuyo</li>
+            <li>❌ Redistribuirlo puede ser ilegal</li>
+            <li>❌ Solo la empresa puede corregir errores</li>
+            <li>❌ Pueden desactivarlo o cobrarte más</li>
+            <li>❌ Ejemplos: Windows, Photoshop, Microsoft Office</li>
+          </ul>
+        </div>
+
+      </div>
+      <p class="compare-footer">
+        El Software Libre no es anti-negocio: es pro-comunidad.
+        Podés vender Software Libre, podés ganarte la vida con él.
+        Lo que no podés hacer es quitarle a otros sus libertades.
+      </p>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════
+       LAS 4 LIBERTADES
+       ════════════════════════════════ -->
+  <section class="freedoms" id="libertades">
+    <div class="container">
+      <h2 class="section-title section-title--light">Las 4 libertades</h2>
+      <p class="section-lead section-lead--light">
+        Definidas por Richard Stallman en 1985. Un software es libre si y solo si garantiza las cuatro.
+      </p>
+      <div class="freedoms-grid">
+        <div class="freedom-card">
+          <div class="freedom-number">0</div>
+          <h3 class="freedom-title">Usar</h3>
+          <p>Correr el programa para cualquier propósito, sin restricciones, sin pedir permiso a nadie.</p>
+          <div class="freedom-example">Ej: instalar Linux en todas las computadoras de tu escuela.</div>
+        </div>
+        <div class="freedom-card">
+          <div class="freedom-number">1</div>
+          <h3 class="freedom-title">Estudiar</h3>
+          <p>Acceder al código fuente y entender exactamente cómo funciona el programa.</p>
+          <div class="freedom-example">Ej: leer el código de Firefox y ver cómo maneja tu historial.</div>
+        </div>
+        <div class="freedom-card">
+          <div class="freedom-number">2</div>
+          <h3 class="freedom-title">Distribuir</h3>
+          <p>Compartir copias del software con quien quieras, gratis o cobrando.</p>
+          <div class="freedom-example">Ej: grabar un pendrive con LibreOffice y regalarlo.</div>
+        </div>
+        <div class="freedom-card">
+          <div class="freedom-number">3</div>
+          <h3 class="freedom-title">Mejorar</h3>
+          <p>Modificar el programa y publicar tus mejoras para que toda la comunidad se beneficie.</p>
+          <div class="freedom-example">Ej: traducir una app al español y publicar la traducción.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════
+       LICENCIAS
+       ════════════════════════════════ -->
+  <section class="licenses" id="licencias">
+    <div class="container">
+      <h2 class="section-title">Licencias: la garantía legal</h2>
+      <p class="section-lead">
+        Las libertades no existen si no hay un documento legal que las respalde.
+        Eso es una licencia de Software Libre.
+      </p>
+      <div class="licenses-grid">
+        <div class="license-card license-gpl">
+          <div class="license-name">GPL</div>
+          <div class="license-full">GNU General Public License</div>
+          <p class="license-desc">La más usada. Si usás código GPL en tu proyecto, tu proyecto también debe ser libre. Protege que el código no sea "privatizado".</p>
+          <div class="license-examples">Linux · WordPress · Git</div>
+        </div>
+        <div class="license-card license-mit">
+          <div class="license-name">MIT</div>
+          <div class="license-full">Massachusetts Institute of Technology</div>
+          <p class="license-desc">Muy permisiva. Podés usar el código en casi cualquier proyecto, incluso propietario, siempre que mantengas el aviso de autoría.</p>
+          <div class="license-examples">jQuery · React · Ruby on Rails</div>
+        </div>
+        <div class="license-card license-apache">
+          <div class="license-name">Apache 2.0</div>
+          <div class="license-full">Apache Software Foundation</div>
+          <p class="license-desc">Similar a MIT pero con protección adicional de patentes. Muy usada en proyectos empresariales que quieren ser abiertos.</p>
+          <div class="license-examples">Android · Kubernetes · TensorFlow</div>
+        </div>
+      </div>
+      <p class="licenses-footer">
+        Este proyecto usa <strong>GPL-3.0</strong>: podés usarlo, modificarlo y distribuirlo,
+        pero si lo mejorás y publicás tu versión, también tiene que ser libre.
+        <a href="LICENCIA">Ver licencia completa →</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════
+       MURAL DE PARTICIPANTES
+       ════════════════════════════════ -->
+  <section class="mural-section" id="mural">
+    <div class="container">
+      <div class="mural-header">
+        <h2 class="section-title section-title--light">Mural de participantes</h2>
+        <span class="mural-count" id="contador">cargando…</span>
+      </div>
+      <p class="section-lead section-lead--light">
+        Cada tarjeta fue agregada por alguien que hizo su primera contribución a un proyecto de Software Libre.
+      </p>
+      <!--
+        Las tarjetas se generan dinámicamente desde contributors.json
+        Lógica en: app.js → función renderMural()
+      -->
+      <div class="mural-grid" id="mural-grid">
+        <div class="mural-loading">Cargando participantes…</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════
+       CÓMO CONTRIBUIR
+       ════════════════════════════════ -->
+  <section class="contribute" id="contribuir">
+    <div class="container">
+      <h2 class="section-title">¿Cómo dejás tu huella?</h2>
+      <p class="section-lead">
+        Tres caminos según tu nivel. Todos válidos. Todos cuentan.
+      </p>
+      <div class="levels-grid">
+
+        <div class="level-card level-tester">
+          <div class="level-badge">Nivel 1</div>
+          <h3 class="level-title">🧪 Tester</h3>
+          <p class="level-desc">Probás el sitio y reportás si algo no funciona. No necesitás cuenta ni instalar nada.</p>
+          <ol class="level-steps">
+            <li>Abrí este sitio en tu dispositivo</li>
+            <li>Revisá que todo se vea bien</li>
+            <li>Si algo falla, abrí un <strong>Issue</strong> en Codeberg y describí el problema</li>
+          </ol>
+          <div class="level-freedom">Ejercés la Libertad <strong>0</strong> — usás y auditás.</div>
+        </div>
+
+        <div class="level-card level-contributor">
+          <div class="level-badge">Nivel 2</div>
+          <h3 class="level-title">✏️ Contribuidor</h3>
+          <p class="level-desc">Agregás tu nombre al mural editando un archivo desde el navegador. Sin terminal.</p>
+          <ol class="level-steps">
+            <li>Abrí <code>contributors.json</code> en Codeberg</li>
+            <li>Clic en ✏️ → Codeberg te pide hacer un <strong>fork</strong> — eso es normal, es la Libertad 3</li>
+            <li>Clic en <em>"Fork this repository and edit"</em></li>
+            <li>Agregá tu entrada con nombre, ciudad y mensaje</li>
+            <li>Clic en <em>Propose file change</em> → <em>Create Pull Request</em></li>
+            <li>Cuando sea mergeado, tu tarjeta aparece acá 🎉</li>
+          </ol>
+          <div class="level-freedom">Ejercés la Libertad <strong>3</strong> — mejorás y publicás.</div>
+        </div>
+
+        <div class="level-card level-developer">
+          <div class="level-badge">Nivel 3</div>
+          <h3 class="level-title">💻 Desarrollador</h3>
+          <p class="level-desc">Clonás el repo, modificás el código y abrís un PR con tu mejora. El proyecto tiene tres archivos bien separados para que sea fácil.</p>
+          <ol class="level-steps">
+            <li>Fork + <code>git clone</code> desde Codeberg</li>
+            <li><code>index.html</code> → estructura · <code>style.css</code> → diseño · <code>app.js</code> → lógica</li>
+            <li>Modificá lo que quieras y probalo con <code>python3 -m http.server</code></li>
+            <li><code>git commit</code> + <code>git push</code> + Pull Request</li>
+          </ol>
+          <div class="level-freedom">Ejercés las <strong>4 libertades</strong>.</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════
+       PIE DE PÁGINA
+       ════════════════════════════════ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        
+        <strong>FLISoL UNPAZ 2026</strong><br>
+        Sábado 25/4 · 15 hs · Aula 210<br>
+        Sede Central, Alem 4731
+      </div>
+      <div class="footer-center">
+        Licencia <a href="LICENCIA">GPL-3.0</a> ·
+        Código en <a href="https://codeberg.org/flisol26/flisolweb" target="_blank">Codeberg</a> ·
+        <a href="https://flisol.unpaz.edu.ar" target="_blank">flisol.unpaz.edu.ar</a>
+        <img src="https://unpaz.edu.ar/sites/default/files/unpaz_logo_15.png" alt="UNPAZ">
+      </div>
+      <div class="footer-right">
+        Este sitio fue construido en vivo<br>
+        durante la charla. El código es tuyo.
+        
+      </div>
+    </div>
+  </footer>
+
+  <!--
+    LÓGICA JAVASCRIPT
+    ¿Querés cambiar cómo se carga o muestra el mural?
+    Editá: app.js
+  -->
+  <script src="app.js"></script>
+
+</body>
+</html>

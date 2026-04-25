@@ -1,0 +1,34 @@
+{
+  "evento": "FLISoL UNPAZ 2026",
+  "descripcion": "Agregá tu entrada acá y abrí un Pull Request en Codeberg.",
+  "contributors": [
+    {
+      "nombre": "Richard Stallman",
+      "ciudad": "Boston, USA",
+      "mensaje": "Free as in freedom, not free as in beer.",
+      "rol": "developer",
+      "libertad_favorita": "3"
+    },
+    {
+      "nombre": "Linus Torvalds",
+      "ciudad": "Helsinki, Finlandia",
+      "mensaje": "Just for fun.",
+      "rol": "developer",
+      "libertad_favorita": "2"
+    },
+    {
+      "nombre": "Matias Rios",
+      "ciudad": "Buenos Aires, Argentina",
+      "mensaje": "Soy un contributors para este sitio🐧",
+      "rol": "developer",
+      "libertad_favorita": "1"
+    },
+     {
+      "nombre": "Debora Roldan",
+      "ciudad": "Buenos Aires, Argentina",
+      "mensaje": "El mejor conocimiento es el que se comparte",
+      "rol": "developer",
+      "libertad_favorita": "3"
+    }
+  ]
+}
