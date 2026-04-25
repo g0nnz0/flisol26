@@ -36,6 +36,13 @@
       "mensaje": "Flisol 2026",
       "rol": "estudiante",
       "libertad_favorita": "0"
+     },
+      {
+      "nombre": " Tito Calderon",
+      "ciudad": "Buenos Aires, Argentina",
+      "mensaje": "Anashei",
+      "rol": "Tester",
+      "libertad_favorita": "0"
     }
   ]
 }
