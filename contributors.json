@@ -72,6 +72,13 @@
       "mensaje": "Transparencia",
       "rol": "developer",
       "libertad_favorita": "2"
+    },
+    {
+      "nombre": "Máximo Fernandez",
+      "ciudad": "Buenos Aires, Argentina",
+      "mensaje": "Mientras funcione todo bien",
+      "rol": "Contribuidor",
+      "libertad_favorita": "0"
     }
   ]
 }
