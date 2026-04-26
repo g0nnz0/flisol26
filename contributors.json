@@ -31,12 +31,12 @@
       "libertad_favorita": "3"
     },
       {
-      "nombre": "Lorena",
+      "nombre": "Marcelo Roldan",
       "ciudad": "Buenos Aires, Argentina",
-      "mensaje": "Flisol 2026",
-      "rol": "estudiante",
+      "mensaje": "Este es mi mensaje",
+      "rol": "developer",
       "libertad_favorita": "0"
-     },
+    },
       {
       "nombre": " Franco Monzon",
       "ciudad": "Buenos Aires, Argentina",
@@ -65,6 +65,13 @@
       "mensaje": "Excelente la flisol",
       "rol": "Tester",
       "libertad_favorita": "3"
+    },
+    {
+       "nombre": "Fabricio Schneiderbauer",
+      "ciudad": "Buenos Aires, Argentina",
+      "mensaje": "Transparencia",
+      "rol": "developer",
+      "libertad_favorita": "2"
     }
   ]
 }
