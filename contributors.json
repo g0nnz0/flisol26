@@ -43,13 +43,30 @@
       "mensaje": "Anashei",
       "rol": "Tester",
       "libertad_favorita": "0"
-    }
-  ]
-}
- },
-      {
+    },
+    {
+      "nombre": "Florencia Coronel",
+      "ciudad": "Buenos Aires, Argentina",
+      "mensaje": "Flisol '26 :D",
+      "rol": "developer",
+      "libertad_favorita": "0"
+    },
+  {
+      "nombre": "Gonzalo Barrionuevo",
+      "ciudad": "Buenos Aires, Argentina",
+      "mensaje": "Vamoo la Flisol 2026",
+      "rol": "developer",
+      "libertad_favorita": "0"
+
+    },
+     {
       "nombre": " Fernandez Esteban",
       "ciudad": "Buenos Aires, AguanteJCP",
       "mensaje": "Excelente la flisol",
       "rol": "Tester",
       "libertad_favorita": "3"
+    }
+  ]
+}
+ 
+     
