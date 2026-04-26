@@ -57,7 +57,16 @@
       "mensaje": "Vamoo la Flisol 2026",
       "rol": "developer",
       "libertad_favorita": "0"
+
+    },
+     {
+      "nombre": " Fernandez Esteban",
+      "ciudad": "Buenos Aires, AguanteJCP",
+      "mensaje": "Excelente la flisol",
+      "rol": "Tester",
+      "libertad_favorita": "3"
     }
   ]
-  
 }
+ 
+     
