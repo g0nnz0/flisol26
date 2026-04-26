@@ -415,7 +415,6 @@ code {
   line-height: 1.4;
 }
 
-
 /* ══════════════════════════════════════
    7. LICENCIAS
    ══════════════════════════════════════ */
@@ -699,7 +698,28 @@ code {
 
 
 /* ══════════════════════════════════════
-   10. FOOTER
+   10. Flisol Map
+     (estilos específicos para el mapa, se pueden mover a map.css)
+     Se puede usar cualquier librería de mapas, aquí se usó Leaflet por ser liviana y fácil de usar.
+   ══════════════════════════════════════ */
+.flisol-map-section {
+  background: var(--bg-oscuro);
+  padding: 5rem 0;
+}
+
+.flisol-map-header {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  margin-bottom: .75rem;
+}
+/* El div donde se dibuja el mapa (importante definir altura) */
+#map {
+    height: 450px;
+    width: 100%;
+}
+/* ══════════════════════════════════════
+   11. FOOTER
    ══════════════════════════════════════ */
 
 .site-footer {

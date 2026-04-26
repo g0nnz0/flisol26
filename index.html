@@ -16,6 +16,8 @@
     Editá: style.css
   -->
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />  
+  <link rel="stylesheet" href="map.css">
 </head>
 <body>
 
@@ -267,7 +269,25 @@
       </div>
     </div>
   </section>
-
+<!-- ════════════════════════════════
+       MAPA DE FLISoL
+       ════════════════════════════════ -->
+  <section class="flisol-map-section" id="flisol-map-container">
+    <div class="container">
+      <div class="flisol-map-header">
+        <h2 class="section-title section-title--light">🌍 FLISoL 2026 en Latinoamérica</h2>        
+      </div>
+      <p class="section-lead section-lead--light">
+        En este mismo instante, miles de personas en toda Latinoamérica están reunidas compartiendo conocimiento. No importa si estás en Buenos Aires, Bogotá o México: hoy todos hablamos el mismo idioma, el del Software Libre.
+      </p>
+      <div style="background-color: #fce4e4; color: #d9423e; padding: 10px; text-align: center; font-weight: bold; font-size: 0.9rem; border-bottom: 1px solid #d9423e;">
+   🔴 EN VIVO: Jornadas simultáneas en más de 10 países. ¡Estás siendo parte de la comunidad!
+</div>
+      <div id="map">
+        
+      </div>
+    </div>
+  </section>
   <!-- ════════════════════════════════
        PIE DE PÁGINA
        ════════════════════════════════ -->
@@ -299,6 +319,7 @@
     Editá: app.js
   -->
   <script src="app.js"></script>
-
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="flisol.js"></script>
 </body>
 </html>
