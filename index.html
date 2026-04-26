@@ -300,5 +300,89 @@
   -->
   <script src="app.js"></script>
 
+  <!-- ════════════════════════════════
+       CHATBOT TUX
+       ════════════════════════════════ -->
+  <div class="chatbot-widget" id="chatbot-widget">
+
+    <!-- Botón flotante con logo de Linux (Tux) -->
+    <button class="chatbot-toggle" id="chatbot-toggle" aria-label="Abrir asistente Tux">
+      <svg class="chatbot-tux-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 122" aria-hidden="true">
+        <!-- Cuerpo -->
+        <ellipse cx="50" cy="82" rx="30" ry="34" fill="#1a1a1a"/>
+        <!-- Panza -->
+        <ellipse cx="50" cy="88" rx="18" ry="23" fill="#f0e8c8"/>
+        <!-- Cabeza -->
+        <ellipse cx="50" cy="36" rx="22" ry="23" fill="#1a1a1a"/>
+        <!-- Ojos blancos -->
+        <ellipse cx="41" cy="30" rx="6" ry="7" fill="white"/>
+        <ellipse cx="59" cy="30" rx="6" ry="7" fill="white"/>
+        <!-- Pupilas azules -->
+        <circle cx="42" cy="31" r="3.5" fill="#1B4F9B"/>
+        <circle cx="60" cy="31" r="3.5" fill="#1B4F9B"/>
+        <!-- Reflejos -->
+        <circle cx="43.5" cy="29.5" r="1.2" fill="white"/>
+        <circle cx="61.5" cy="29.5" r="1.2" fill="white"/>
+        <!-- Pico -->
+        <ellipse cx="50" cy="46" rx="9" ry="5.5" fill="#F26522"/>
+        <!-- Alas -->
+        <ellipse cx="20" cy="80" rx="9" ry="23" fill="#1a1a1a" transform="rotate(-8 20 80)"/>
+        <ellipse cx="80" cy="80" rx="9" ry="23" fill="#1a1a1a" transform="rotate(8 80 80)"/>
+        <!-- Patas -->
+        <ellipse cx="38" cy="116" rx="13" ry="6" fill="#F26522" transform="rotate(-5 38 116)"/>
+        <ellipse cx="62" cy="116" rx="13" ry="6" fill="#F26522" transform="rotate(5 62 116)"/>
+      </svg>
+      <span class="chatbot-badge" id="chatbot-badge" aria-hidden="true">1</span>
+    </button>
+
+    <!-- Ventana del chat -->
+    <div class="chatbot-panel" id="chatbot-window" aria-hidden="true" role="dialog" aria-label="Asistente Tux — FLISoL UNPAZ 2026">
+
+      <div class="chatbot-header">
+        <div class="chatbot-header-info">
+          <svg class="chatbot-tux-small" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 122" aria-hidden="true">
+            <ellipse cx="50" cy="82" rx="30" ry="34" fill="#1a1a1a"/>
+            <ellipse cx="50" cy="88" rx="18" ry="23" fill="#f0e8c8"/>
+            <ellipse cx="50" cy="36" rx="22" ry="23" fill="#1a1a1a"/>
+            <ellipse cx="41" cy="30" rx="6" ry="7" fill="white"/>
+            <ellipse cx="59" cy="30" rx="6" ry="7" fill="white"/>
+            <circle cx="42" cy="31" r="3.5" fill="#1B4F9B"/>
+            <circle cx="60" cy="31" r="3.5" fill="#1B4F9B"/>
+            <ellipse cx="50" cy="46" rx="9" ry="5.5" fill="#F26522"/>
+            <ellipse cx="20" cy="80" rx="9" ry="23" fill="#1a1a1a" transform="rotate(-8 20 80)"/>
+            <ellipse cx="80" cy="80" rx="9" ry="23" fill="#1a1a1a" transform="rotate(8 80 80)"/>
+          </svg>
+          <div>
+            <div class="chatbot-name">Tux</div>
+            <div class="chatbot-status">Asistente FLISoL &middot; Software Libre 🐧</div>
+          </div>
+        </div>
+        <button class="chatbot-close" id="chatbot-close" aria-label="Cerrar chat">✕</button>
+      </div>
+
+      <div class="chatbot-messages" id="chatbot-messages"></div>
+
+      <div class="chatbot-input-area">
+        <input
+          type="text"
+          id="chatbot-input"
+          class="chatbot-input"
+          placeholder="Preguntame sobre FLISoL…"
+          aria-label="Tu pregunta"
+          maxlength="200"
+          autocomplete="off"
+        >
+        <button id="chatbot-send" class="chatbot-send" aria-label="Enviar">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="17" height="17" aria-hidden="true">
+            <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
+          </svg>
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="chatbot.js"></script>
+
 </body>
 </html>
